@@ -1,0 +1,167 @@
+@media (min-width: 768px) {
+  body {
+    .tarjeta {
+      header {
+        .menu {
+          .menu-nav {
+            justify-content: space-between;
+            font-size: 20px;
+            font-weight: 500;
+          }
+          .logo {
+            .logo__img {
+              width: 60px;
+              height: 30px;
+            }
+          }
+          .btstyle {
+            font-size: 20px;
+            font-weight: 500;
+            width: 100px;
+            height: 40px;
+          }
+          .btlogin {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+      main {
+        .imagentitulo {
+          height: 390px;
+          margin-top: 60px;
+          .imagentitulo__text {
+            font-size: 24px;
+            line-height: 70px;
+          }
+          .imagentitulo__button {
+            .btstyle-title{
+              width: 100px;
+              height: 30px;
+              margin-right: 10px;
+            }
+          }
+        }
+        .boxrecord {
+          height: 150px;
+          .boxrecord__items {
+            font-size: 15px;
+          }
+          .icon__records {
+            width: 60px;
+          }
+        }
+        .cita {
+          height: 575px;
+          margin-top: 70px;
+          margin-bottom: 200px;
+          padding-top: 50px;
+          .cita__text {
+            font-size: 38px;
+          }
+        }
+        .artistas {
+          height: 140px;
+          padding-left: 80px;
+          .artistas__text {
+            font-size: 32px;
+          }
+        }
+        .fila {
+          margin-bottom: 150px;
+        }
+        .boxlogin {
+          left: 21%;
+          width: 480px;
+          height: 384px;
+          h2 {
+            font-size: 36px;
+          }
+          .loginform {
+            font-size: 22px;
+          }
+          p {
+            font-size: 20px;
+          }
+        }
+        .table-mensual {
+          margin-bottom: 120px;
+        }
+        .nosotros {
+          margin-top: 50px;
+          background-size: 700px;
+          height: 400px;
+          .nosotros-text {
+            font-size: 52px;
+            padding-left: 50px;
+            padding-top: 24px;
+          }
+        }
+        .nosotros-history {
+          margin: 10px;
+          background-color: rgba($color: #38393a, $alpha: 0.7);
+          .nosotros-history-text {
+            font-size: 36px;
+          }
+        }
+        .contacto {
+          margin-top: 50px;
+          margin-bottom: 50px;
+          background-size: 700px;
+          height: 400px;
+          .contacto-text {
+            font-size: 38px;
+            font-weight: 700;
+            padding-left: 48px;
+            padding-top: 28px;
+          }
+        }
+        .contactoform {
+          font-size: 20px;
+          padding-left: 20px;
+          padding-right: 20px;
+          align-items: center;
+          .form1 {
+            .inputform {
+              width: 500px;
+            }
+          }
+          .form2 {
+            margin-top: 10px;
+            .inputform-coment {
+              height: 200px;
+              width: 700px;
+            }
+          }
+          button {
+            margin-top: 20px;
+            margin-bottom: 400px;
+          }
+        }
+      }
+    }
+    .footer {
+      height: 125px;
+      .footer__menu {
+        font-size: 24px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .logo1 {
+        width: 60px;
+        height: 30px;
+      }
+      .redes {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        .redes__sociales {
+          padding-right: 10px;
+          width: 44px;
+        }
+      }
+    }
+  }
+}
