@@ -71,26 +71,27 @@
         .fila {
           margin-bottom: 150px;
         }
-        .boxlogin {
-          left: 21%;
-          width: 480px;
-          height: 384px;
-          h2 {
-            font-size: 36px;
-          }
-          .loginform {
-            font-size: 22px;
-          }
-          p {
-            font-size: 20px;
+        .bigbox {
+          .boxlogin {
+            width: 480px;
+            height: 384px;
+            h2 {
+              font-size: 36px;
+            }
+            .loginform {
+              font-size: 22px;
+            }
+            p {
+              font-size: 20px;
+            }
           }
         }
         .table-mensual {
-          margin-bottom: 120px;
+          margin-bottom: 170px;
         }
         .nosotros {
           margin-top: 50px;
-          background-size: 700px;
+          background-size: 900px;
           height: 400px;
           .nosotros-text {
             font-size: 52px;
@@ -108,7 +109,7 @@
         .contacto {
           margin-top: 50px;
           margin-bottom: 50px;
-          background-size: 700px;
+          background-size: 900px;
           height: 400px;
           .contacto-text {
             font-size: 38px;

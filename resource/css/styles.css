@@ -296,31 +296,33 @@ body .tarjeta main .container .fila .col-lg-4 .cardbts .card-body .textcrd {
   text-align: justify;
   font-weight: 600;
 }
-body .tarjeta main .boxlogin {
+body .tarjeta main .bigbox {
+  display: flex;
+  justify-content: center;
+}
+body .tarjeta main .bigbox .boxlogin {
   margin-top: 100px;
-  position: absolute;
-  left: 27%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 176px;
-  height: 141px;
+  width: 320px;
+  height: 200px;
   background-color: #357286;
   border: 2px solid #F5B40D;
   border-radius: 30px;
   padding-top: 20px;
 }
-body .tarjeta main .boxlogin h2 {
-  font-size: 12px;
+body .tarjeta main .bigbox .boxlogin h2 {
+  font-size: 24px;
 }
-body .tarjeta main .boxlogin .loginform {
+body .tarjeta main .bigbox .boxlogin .loginform {
   display: flex;
   flex-direction: column;
-  font-size: 8px;
+  font-size: 14px;
 }
-body .tarjeta main .boxlogin p {
-  font-size: 6px;
+body .tarjeta main .bigbox .boxlogin p {
+  font-size: 14px;
 }
 body .tarjeta main .musica {
   background-image: url(../img/bannermusica.jpg);
@@ -354,14 +356,14 @@ body .tarjeta main table tbody td {
 body .tarjeta main .nosotros {
   background: url(../img/unsplash_5kYKzH5Gwgk.png);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   margin-top: 30px;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 30px;
   position: relative;
-  height: 210px;
+  height: 300px;
 }
 body .tarjeta main .nosotros .nosotros-text {
   position: absolute;
@@ -376,21 +378,21 @@ body .tarjeta main .nosotros-history {
   border-radius: 10px;
 }
 body .tarjeta main .nosotros-history .nosotros-history-text {
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
   padding: 8px;
 }
 body .tarjeta main .contacto {
   background: url(../img/unsplash_QckxruozjRg.png);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   margin-top: 30px;
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 30px;
   position: relative;
-  height: 210px;
+  height: 300px;
 }
 body .tarjeta main .contacto .contacto-text {
   position: absolute;
@@ -531,26 +533,25 @@ body .tarjeta main .contactoform button {
   body .tarjeta main .fila {
     margin-bottom: 150px;
   }
-  body .tarjeta main .boxlogin {
-    left: 21%;
+  body .tarjeta main .bigbox .boxlogin {
     width: 480px;
     height: 384px;
   }
-  body .tarjeta main .boxlogin h2 {
+  body .tarjeta main .bigbox .boxlogin h2 {
     font-size: 36px;
   }
-  body .tarjeta main .boxlogin .loginform {
+  body .tarjeta main .bigbox .boxlogin .loginform {
     font-size: 22px;
   }
-  body .tarjeta main .boxlogin p {
+  body .tarjeta main .bigbox .boxlogin p {
     font-size: 20px;
   }
   body .tarjeta main .table-mensual {
-    margin-bottom: 120px;
+    margin-bottom: 170px;
   }
   body .tarjeta main .nosotros {
     margin-top: 50px;
-    background-size: 700px;
+    background-size: 900px;
     height: 400px;
   }
   body .tarjeta main .nosotros .nosotros-text {
@@ -568,7 +569,7 @@ body .tarjeta main .contactoform button {
   body .tarjeta main .contacto {
     margin-top: 50px;
     margin-bottom: 50px;
-    background-size: 700px;
+    background-size: 900px;
     height: 400px;
   }
   body .tarjeta main .contacto .contacto-text {
@@ -697,20 +698,19 @@ body .tarjeta main .contactoform button {
   body .tarjeta main .fila {
     margin-bottom: 170px;
   }
-  body .tarjeta main .boxlogin {
-    width: 352px;
-    height: 282px;
-    left: 38%;
+  body .tarjeta main .bigbox .boxlogin {
+    width: 480px;
+    height: 400px;
     margin-top: 150px;
   }
-  body .tarjeta main .boxlogin h2 {
-    font-size: 28px;
+  body .tarjeta main .bigbox .boxlogin h2 {
+    font-size: 32px;
   }
-  body .tarjeta main .boxlogin .loginform {
-    font-size: 16px;
+  body .tarjeta main .bigbox .boxlogin .loginform {
+    font-size: 20px;
   }
-  body .tarjeta main .boxlogin p {
-    font-size: 16px;
+  body .tarjeta main .bigbox .boxlogin p {
+    font-size: 20px;
   }
   body .tarjeta main .musica {
     height: 175px;
@@ -729,8 +729,8 @@ body .tarjeta main .contactoform button {
     font-size: 16px;
   }
   body .tarjeta main .nosotros {
-    background-size: 1200px;
-    height: 600px;
+    background-size: 1700px;
+    height: 800px;
   }
   body .tarjeta main .nosotros .nosotros-text {
     font-size: 96px;
@@ -748,8 +748,8 @@ body .tarjeta main .contactoform button {
   body .tarjeta main .contacto {
     margin-top: 50px;
     margin-bottom: 50px;
-    background-size: 1200px;
-    height: 500px;
+    background-size: 1700px;
+    height: 800px;
   }
   body .tarjeta main .contacto .contacto-text {
     font-size: 46px;

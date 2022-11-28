@@ -80,19 +80,20 @@
         .fila {
           margin-bottom: 170px;
         }
-        .boxlogin {
-          width: 352px;
-          height: 282px;
-          left: 38%;
-          margin-top: 150px;
-          h2 {
-            font-size: 28px;
-          }
-          .loginform {
-            font-size: 16px;
-          }
-          p {
-            font-size: 16px;
+        .bigbox {
+          .boxlogin {
+            width: 480px;
+            height: 400px;
+            margin-top: 150px;
+            h2 {
+              font-size: 32px;
+            }
+            .loginform {
+              font-size: 20px;
+            }
+            p {
+              font-size: 20px;
+            }
           }
         }
         .musica {
@@ -112,8 +113,8 @@
           font-size: 16px;
         }
         .nosotros {
-          background-size: 1200px;
-          height: 600px;
+          background-size: 1700px;
+          height: 800px;
           .nosotros-text {
             font-size: 96px;
           }
@@ -131,8 +132,8 @@
         .contacto {
           margin-top: 50px;
           margin-bottom: 50px;
-          background-size: 1200px;
-          height: 500px;
+          background-size: 1700px;
+          height: 800px;
           .contacto-text {
             font-size: 46px;
             font-weight: 700;
