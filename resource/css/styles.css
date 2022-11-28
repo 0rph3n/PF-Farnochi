@@ -256,6 +256,7 @@ body .tarjeta main .container .fila {
 body .tarjeta main .container .fila .col-12 .cardbts {
   height: auto;
   margin-top: 30px;
+  margin-bottom: 40px;
   background-color: #38393a;
   border: 2px solid #f5b40d;
   box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
