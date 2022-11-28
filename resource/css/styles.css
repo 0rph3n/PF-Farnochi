@@ -54,8 +54,12 @@ body .tarjeta {
   /*Header*/
   /*Main*/
 }
+body .tarjeta .menu-mobile {
+  position: relative;
+  border-radius: 10px 10px 0px 0px;
+}
 body .tarjeta .menu {
-  display: grid;
+  display: none;
   grid-template-columns: 20% 60% 20%;
   align-content: center;
   margin-top: 20px;
@@ -472,6 +476,12 @@ body .tarjeta main .contactoform button {
 
 /*Artistas*/
 @media (min-width: 768px) {
+  body .tarjeta header .menu-mobile {
+    display: none;
+  }
+  body .tarjeta header .menu {
+    display: grid;
+  }
   body .tarjeta header .menu .menu-nav {
     justify-content: space-between;
     font-size: 20px;
@@ -624,6 +634,9 @@ body .tarjeta main .contactoform button {
 @media (min-width: 1200px) {
   body .tarjeta {
     margin: 50px 50px 0px 50px;
+  }
+  body .tarjeta header .menu-mobile {
+    display: none;
   }
   body .tarjeta header .menu {
     margin-top: 50px;

@@ -69,8 +69,12 @@ body {
     border: solid yellow 2px;
 
     /*Header*/
+    .menu-mobile {
+      position: relative;
+      border-radius: 10px 10px 0px 0px;
+    }
     .menu {
-      display: grid;
+      display: none;
       grid-template-columns: 20% 60% 20%;
       align-content: center;
       margin-top: 20px;

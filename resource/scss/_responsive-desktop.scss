@@ -3,6 +3,9 @@
     .tarjeta {
       margin: 50px 50px 0px 50px;
       header {
+        .menu-mobile {
+          display: none;
+        }
         .menu {
           margin-top: 50px;
           .logo {

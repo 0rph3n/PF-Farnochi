@@ -2,7 +2,11 @@
   body {
     .tarjeta {
       header {
+        .menu-mobile {
+          display: none;
+        }
         .menu {
+          display: grid;
           .menu-nav {
             justify-content: space-between;
             font-size: 20px;
